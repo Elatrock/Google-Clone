@@ -1,0 +1,185 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+body
+{
+    background: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header
+{
+    width: auto;
+    height: auto;
+    text-align: right;
+}
+
+header nav
+{
+    display: flex;
+    justify-content: flex-end;
+}
+
+header nav .top-nav
+{   
+    height: 50px;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+}
+
+header nav .top-nav li
+{
+    margin-top: 30px;
+    margin-right: 20px;
+}
+
+header nav .top-nav .menu-icon
+{
+    background-image: url(https://cdn-icons-png.flaticon.com/512/162/162740.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+header nav .top-nav .profile-pic
+{
+    background-image: url(https://cdn.discordapp.com/avatars/306556520731115521/5016230fca16ffbd2f5060511f57e1e7.png?size=4096);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+main
+{
+    margin-top: 100px;
+    text-align: center;
+}
+
+main .google-logo img
+{
+    width: 272px;
+}
+
+main .main-input
+{
+    width: 530px;
+    margin: 0 auto;
+
+}
+
+main .main-input-container{
+    width: 520px;
+    border-radius: 100px;
+    border: 1px solid lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main .main-input input{
+    width: 450px;
+    height: 35px;
+    border: none;
+    outline: none;
+}
+
+main .main-input-container:hover{
+    box-shadow: 0 1px 2px 0 darkgray;
+}
+
+main .main-input .search-icon
+{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Vector_search_icon.svg/945px-Vector_search_icon.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+}
+
+main .main-input .micro-icon
+{
+    background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Google_mic.svg/716px-Google_mic.svg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
+
+main .buttons
+{
+    width: 530;
+    margin: 10px auto;
+}
+
+main .buttons div{
+    display: inline-block;
+}
+
+main .buttons input
+{
+    height: 36px;
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 10px;
+}
+
+main .buttons input:hover
+{
+    border: 1px solid lightgray;
+    box-shadow: 2px black;
+    color:black;
+}
+
+footer
+{
+    width: 100%;
+    height: 50px;
+    bottom: 0;
+    position: absolute;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    background-color: whitesmoke;
+}
+
+footer ul{
+    margin-top: 15px;
+    list-style: none;
+    display: flex;
+}
+
+footer .low-nav-left
+{
+    justify-content: left;
+}
+
+footer .low-nav-left li
+{
+    margin-left: 20px;
+}
+
+footer .low-nav-right
+{
+    justify-content: right;
+}
+
+footer .low-nav-right li
+{
+    margin-right: 20px;
+}
